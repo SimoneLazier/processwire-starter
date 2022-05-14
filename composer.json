@@ -1,0 +1,39 @@
+{
+  "name": "simonelazier/processwire-starter",
+  "type": "library",
+  "description": "ProcessWire Starter",
+  "keywords": [
+    "processwire",
+    "cms",
+    "cmf",
+    "content management system"
+  ],
+  "license": "MPL-2.0",
+  "homepage": "https://processwire.com",
+  "authors": [
+    {
+      "name": "Ryan Cramer",
+      "email": "ryan@processwire.com",
+      "homepage": "https://processwire.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Simone Lazier",
+      "email": "simone.lazier@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.8",
+    "ext-gd": "*"
+  },
+  "autoload": {
+    "files": [
+      "wire/core/ProcessWire.php",
+      "site/helpers/mix.php"
+    ],
+    "psr-4": {
+      "Site\\": "site"
+    }
+  }
+}
